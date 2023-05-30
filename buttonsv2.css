@@ -39,6 +39,24 @@ body{
       margin-left: 5%;
   }
 
+  /*label*/
+  
+  .label{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    gap: 7%;
+  }
+
+  #label1{
+    width: 88%;
+  }
+
   /*action card*/
 
   .line{
@@ -120,5 +138,15 @@ img.power{
     .line{
         margin-bottom: 1%;
     }
+
+     /*label*/
+  
+  .label{
+    gap: 2%;
+  }
+
+  #label1{
+    width: 90%;
+  }
 
 }
